@@ -1,5 +1,6 @@
 import './App.css'
 
+// TODO: CSSを適用して美しくする
 function App() {
 const sections =[
   {
@@ -20,6 +21,7 @@ const sections =[
   },
 ]
 
+  // 疑問：保守性の観点からmapは使わない方がいいかもしれない
   return (
     <>
      <section>
